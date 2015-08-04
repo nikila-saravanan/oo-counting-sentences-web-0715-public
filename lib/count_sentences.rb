@@ -4,5 +4,8 @@
 class String
   def count_sentences
     # code goes here
+    sentence_array = self.split(/\.|\?|\!+/)
+    num_sentences = sentence_array.length
+    num_sentences
   end
 end
